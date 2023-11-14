@@ -6,10 +6,10 @@ This repository, "ffmpeg-scripts," contains a collection of batch scripts design
 ## Scripts in This Repository
 
 ### 1. `gpu-accelerated-conversion.bat`
-Similar to `convert-to-mp4.bat`, but utilizes NVIDIA GPU acceleration for faster processing. Requires an NVIDIA GPU and appropriate drivers.
+Converts `.mkv` files to `.mp4` format using FFmpeg. This script can be executed in any directory and will process all `.mkv` files within that directory. Utilizes NVIDIA GPU acceleration for faster processing. Requires an NVIDIA GPU and appropriate drivers.
 
 ### 2. `merge-to-folder-name.bat`
-An iteration of `merge-split-files.bat` that names the output file after the folder it resides in, providing a convenient way to organize merged files.
+Merges video files that are split into parts (e.g., 'CD1' and 'CD2') into a single file. This script is designed to process files within the same directory that names the output file after the folder it resides in, providing a convenient way to organize merged files.
 
 ## Installation
 1. **Install FFmpeg**: Ensure FFmpeg is installed on your system and added to your PATH.
