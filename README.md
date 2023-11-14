@@ -25,9 +25,11 @@ Double-click the script to run it.
 For GPU-accelerated scripts, ensure you have a compatible NVIDIA GPU.
 
 ### Specific Script Usage
-- convert-to-mp4.bat:
+
+#### `convert-to-mp4.bat`:
 Right-click on the script and select 'Run as administrator' to convert all `.mkv` files in the folder to `.mp4`.
-`gpu-accelerated-conversion.bat`:
+
+#### `gpu-accelerated-conversion.bat`:
 Requires an NVIDIA GPU. Right-click and run as administrator to convert video files using GPU acceleration.
 merge-to-folder-name.bat:
 - Merge video files split into parts. Ensure the files are correctly named (e.g., 'CD1', 'CD2') before running.
