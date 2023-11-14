@@ -8,7 +8,7 @@ This repository, "ffmpeg-scripts," contains a collection of batch scripts design
 ### 1. `gpu-accelerated-conversion.bat`
 Similar to `convert-to-mp4.bat`, but utilizes NVIDIA GPU acceleration for faster processing. Requires an NVIDIA GPU and appropriate drivers.
 
-### 4. `merge-to-folder-name.bat`
+### 2. `merge-to-folder-name.bat`
 An iteration of `merge-split-files.bat` that names the output file after the folder it resides in, providing a convenient way to organize merged files.
 
 ## Installation
